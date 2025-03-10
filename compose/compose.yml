@@ -1,5 +1,4 @@
 version: '3.8'
-
 services:
   web:
     image: pindinga1/openvas:latest
@@ -9,8 +8,10 @@ services:
     environment:
       - OPENVAS_PASSWORD=5JzThxe537M
     volumes:
-      - feeds:/var/lib/openvas
+      - plugins:/var/lib/openvas
+      - feeds:/var/lib/gvmd
       - postgresql:/var/lib/postgresql/15/main
 volumes:
   feeds:
+  plugins:
   postgresql:
