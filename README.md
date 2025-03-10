@@ -1,6 +1,6 @@
-# openvascpnbase
-DockerFile BASE para construir un OPENVAS funcional
-## CONSTRUIR IMAGEN
+# OPENVAS
+Contenedor de Docker OPENVAS
+## INSTRUCCIONES
 
 Traemos Repo:
 ``` bash
