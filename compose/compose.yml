@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  web:
+    image: pindinga1/openvas:latest
+    container_name: openvas
+    ports:
+      - "9392:9392"
+    environment:
+      - OPENVAS_PASSWORD=5JzThxe537M
