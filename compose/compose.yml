@@ -10,7 +10,7 @@ services:
       - OPENVAS_PASSWORD=5JzThxe537M
     volumes:
       - feeds:/var/lib/openvas
-      - postgresql:/var/lib/postgresql/15/main/
+      - postgresql:/var/lib/postgresql/15/main
 volumes:
   feeds:
   postgresql:
