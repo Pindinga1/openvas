@@ -6,10 +6,10 @@ services:
     ports:
       - "9392:9392"
     environment:
-      - OPENVAS_PASSWORD=5JzThxe537M
+      - OPENVAS_PASSWORD=admin
     volumes:
       - plugins:/var/lib/openvas
-      - feeds:/var/lib/gvmd
+      - feeds:/var/lib/gvm
       - postgresql:/var/lib/postgresql/15/main
 volumes:
   feeds:
