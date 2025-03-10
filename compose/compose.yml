@@ -8,3 +8,9 @@ services:
       - "9392:9392"
     environment:
       - OPENVAS_PASSWORD=5JzThxe537M
+    volumes:
+      - feeds:/var/lib/openvas
+      - postgresql:/var/lib/postgresql/15/main/
+volumes:
+  feeds:
+  postgresql:
