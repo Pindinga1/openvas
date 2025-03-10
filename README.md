@@ -12,11 +12,11 @@ Ingresamos a la carpeta:
 cd openvas/compose/
 ```
 
-Construimos imágen:
+Iniciamos el Contenedor:
 ``` bash
 sudo docker-compose up -d  
 ```
-Esperamos unos momentos hasta que la interfáz web esté lista en http://tu-ip:9392/, las credenciales por defecto son:  
+Esperamos unos momentos hasta que la interfaz web esté lista en http://tu-ip:9392/, las credenciales por defecto son:  
 User  
 ``` bash
 admin
