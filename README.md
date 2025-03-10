@@ -9,7 +9,7 @@ git clone https://github.com/Pindinga1/openvas.git
 
 Ingresamos a la carpeta:
 ``` bash
-cd openvascpnbase
+cd openvas
 ```
 
 Construimos imágen:
