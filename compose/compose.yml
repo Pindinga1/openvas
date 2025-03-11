@@ -6,7 +6,7 @@ services:
     ports:
       - "9392:9392"
     environment:
-      - OPENVAS_PASSWORD=Admin123!
+      - OPENVAS_PASSWORD=5JzThxe537M
     volumes:
       - plugins:/var/lib/openvas
       - feeds:/var/lib/gvm
